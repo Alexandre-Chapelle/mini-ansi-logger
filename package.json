@@ -1,0 +1,36 @@
+{
+  "name": "mini-ansi-logger",
+  "version": "1.0.0",
+  "description": "A simple customizable logger for Node.js applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexandre-Chapelle/mini-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "https://github.com/Alexandre-Chapelle",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.5",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
